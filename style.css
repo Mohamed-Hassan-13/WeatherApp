@@ -1,0 +1,147 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/pexels-pixabay-36717.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    font-size: 40px;
+    color: #f5f1f19a;
+}
+
+.all{
+    background-color: #f5f1f19a;
+    backdrop-filter: blur(15px);
+padding: 20px;
+height: 77px;
+width: 30%;
+min-width: 300px;
+overflow: hidden;
+transition: all 1s;
+border-radius: 4px;
+
+}
+
+.all .top .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .searchion{
+        font-size: 25px;
+        margin-left: -33px;
+        cursor: pointer;
+    }
+
+
+    .location{
+        cursor: pointer;
+        font-size: 25px;
+margin-right: -33px;
+    }
+    input{
+        background-color: transparent;
+        border: 1px solid black;
+        padding: 10px 33px;
+        width: 90%;
+border-radius: 18px;
+    }
+
+    input:focus{
+outline: 0;
+    }
+
+}
+
+.all #bottom{
+    display: flex;
+    flex-direction: column;
+gap: 20px;
+
+
+    img{
+        width: 30px;
+    }
+
+
+    .temp{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        img{
+            width: 120px;
+        }
+.we{
+    position: relative;
+            span{
+            font-size: 40px;
+        }
+
+        .c{
+font-size: 18px;
+position: absolute;
+        }
+}
+    }
+
+   
+}
+
+.all #bottom .fin{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+
+
+
+    .hum{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        img{
+            width: 50px;
+        }
+    
+    }
+
+    .windspeed{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        img{
+            width: 50px;
+        }    }
+}
+
+
+
+
+#humi , #wind{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+

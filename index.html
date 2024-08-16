@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <h1 class="logo">Weather</h1>
+    <div class="all">
+      <div class="top">
+        <div class="search">
+          <ion-icon class="location" name="location"></ion-icon>
+          <input id="inp" type="text" placeholder="City name" />
+          <ion-icon class="searchion" name="search-outline"></ion-icon>
+        </div>
+      </div>
+      <div id="bottom">
+        <div class="temp">
+          <img src="images/sunny.png" alt="" id="sunny" />
+          <div class="we"><span id="temp"></span><span class="c">c</span></div>
+          <h1 class="sky"></h1>
+        </div>
+        <div class="fin">
+          <div class="hum">
+            <img src="images/humidity.png" alt="" />
+            <div class="text">
+              <p id="humi"></p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="windspeed">
+            <img src="images/wind.png" alt="" />
+            <div class="text">
+              <p id="wind"></p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
